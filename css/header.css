@@ -18,7 +18,7 @@
 
 header{
     width: 100%;
-    padding: 1px 1%;
+    padding: 12px 1%;
     position: fixed;
     top: 0;
     left: 0;
@@ -51,7 +51,7 @@ header.rolagem i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: #ca5c7f;
     color: white;
     
 }
@@ -75,7 +75,7 @@ header.rolagem i{
     height: 35px;
     border: 0;
     border-radius: 20px;
-    background-color: #e17a97;
+    background-color: #c92e5e;
     color: #fff;
     font-size: 15px;
     display: flex;
@@ -132,9 +132,6 @@ header.rolagem i{
 
 
 @media screen and (max-width: 500px) {
-    
-    
-    
     .carousel-topo p {
         font-size: 5px;
         display: flex;
@@ -159,6 +156,10 @@ header.rolagem i{
 
     }
 
+    .nav-manual .manual-btn, .nav-auto div {
+        padding: 2px;
+    }
+
     .btn-icons i {
         width: 30px;
         height: 20px;
@@ -174,11 +175,12 @@ header.rolagem i{
     }
 
     .nav-auto, .nav-manual{
-        margin-top: 28%;
+        margin-top: 34.3%;
     }
 
     header {
-        display: none;
+     
+       display: none;
         
     }
 }

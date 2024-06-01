@@ -32,13 +32,13 @@ section.slider{
 .nav-manual, .nav-auto{
     position: absolute;
     width: 100%;
-    margin-top: 32%;
+    margin-top: 34.5%;
     display: flex;
     justify-content: center;
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #ffffff;
+    border: 1px solid #c92e5e;
     padding: 8px;
     border-radius: 50%;
     cursor: pointer;
@@ -50,11 +50,11 @@ section.slider{
 }
 
 .nav-manual .manual-btn:hover{
-    background-color: #ffffff;
+    background-color: #c92e5e;
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #ffffff;
+    background-color: #c92e5e;
 }
 
 #radio1:checked ~ .primeiro{
