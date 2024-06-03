@@ -1,8 +1,8 @@
+.districts {
+   display: flex;
+   justify-content: center;
 
-.disBox {
-  
-    padding: 0 200px;
-    
+
 }
 
 
@@ -13,16 +13,18 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    cursor: pointer;
-    
-    
+    gap: 240px;
     
 }
 
 .disButtons img {
     border-radius: 10px;
-
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+   
 }
+
 
 
 
@@ -36,4 +38,11 @@
     transform: scale(1.1);
     transition: transform 0.5s;
     
+}
+
+@media screen and (max-width: 500px) {
+    .disButtons {
+        gap: 5px;
+        margin-top: 10px;
+    }
 }

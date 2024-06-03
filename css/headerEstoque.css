@@ -1,6 +1,7 @@
-.container{
+#container{
     max-width: 1280px;
     margin: auto;
+    
     
 }
 
@@ -21,9 +22,9 @@
 }
 
 
-header{
+header {
     width: 100%;
-    padding: 12px 1%;
+    padding: 1px 1%;
     position: fixed;
     top: 0;
     left: 0;
@@ -32,13 +33,18 @@ header{
    
 }
 
+#iconImg {
+    width: 120px;
+    
+}
+
 #iconImgMobile {
     display: none;
 }
 
 header.rolagem{
     background-color: #ca5c7f;
-    padding: 1px 4%;
+    padding: 0.1px 1%;
 }
 
 header.rolagem i{
@@ -69,7 +75,7 @@ header.rolagem i{
     font-size: 1rem;
     padding: 0 7rem;
     letter-spacing: 1px;
-    font-family: 'Cabin';
+    font-family: Cabin;
    
 }
 
@@ -86,9 +92,10 @@ header.rolagem i{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Cabin';
+    font-family: Cabin;
     padding: 15px;
     outline: none;
+    display: none;
 }
 
 
@@ -145,8 +152,6 @@ header.rolagem i{
         text-align: center;
         padding: 0 1rem;
     }
-
-    
 
     .carousel h6 {
         font-size: 7px;

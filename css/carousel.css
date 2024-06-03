@@ -1,18 +1,18 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   
-}
+
 
 body {
     background-color: #ffe6f0;
     overflow-x: hidden;
 }
 
-body { min-height: 200vh; }
+body { min-height: 100vh; }
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: Cabin;
+    src: url(Fontes/Cabin-VariableFont_wdth\,wght.ttf);
+}
 
 .carousel {
     display: flex;
